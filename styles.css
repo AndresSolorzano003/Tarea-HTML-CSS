@@ -1,6 +1,9 @@
 :root{
     --color: #03989E;
 }
+body{
+    background-color: #F0FFFF;
+}
 button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -41,7 +44,7 @@ input{
 }
 .referencias_look_for{
     color: black;
-    margin: 30px 20px 50px 10px;
+    margin: 30px 20px 50px 0px;
     text-decoration: none;
     
     
@@ -54,8 +57,9 @@ input{
 }
 /*Menu opciones*/
 .btn_options{
-    margin: 0px 25px 0% 25px;
+    margin: 0px 15px 0% 15px;
     border: 0;
+    background-color: #D6EAF8;
 }
 .btn_options:hover{
     background-color: var(--color);
@@ -80,7 +84,7 @@ input{
  
 }
 .products_img{
-    background-color: #d4d4d4;
+    background-color: #D6EAF8;
     justify-content: center;
  padding: 40px;
  border: 0px px 0px 0px;
@@ -110,4 +114,10 @@ input{
 }
 .detalles:hover{
     background-color: white;
+}
+.seeker{
+    background-color: #d4d4d4;
+    justify-content: center;
+ padding: 40px;
+ border: 0px px 0px 0px;
 }
