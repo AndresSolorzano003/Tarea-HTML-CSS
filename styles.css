@@ -1,0 +1,65 @@
+:root{
+    --color: #03989E;
+}
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Cabecera*/
+.head_pag{
+    background-color: var(--color);
+    display: flex;
+    justify-content: space-between;
+    border: 0%;
+    padding: 0%;
+    margin: 0%;
+}
+.img_redes_sociales{
+    padding: 10px;
+}
+input{
+    border-radius: 150px;
+    margin: 0px 20px 0 0;
+    padding: 5px;  
+}
+.ref_busqueda{
+    margin: 0px 10px 0 0;
+}
+
+/* Barra menu*/
+.look_For{
+   
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    
+}
+.img_look_for{
+    justify-content: flex-start;
+    margin: 0px 34% 0px 0px;
+}
+.referencias_look_for{
+    color: black;
+    margin: 30px 20px 50px 10px;
+    text-decoration: none;
+    
+    
+}
+.referencias_look_for:hover{
+    color: var(--color)
+    
+}
+
+/*Menu opciones*/
+
+.btn_options{
+    margin: 0px 25px 0% 25px;
+ 
+}
+.btn_options:hover{
+    background-color: var(--color);
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
