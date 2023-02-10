@@ -47,19 +47,67 @@ input{
     
 }
 .referencias_look_for:hover{
-    color: var(--color)
-    
+    color: var(--color);
+   
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 /*Menu opciones*/
-
 .btn_options{
     margin: 0px 25px 0% 25px;
- 
+    border: 0;
 }
 .btn_options:hover{
     background-color: var(--color);
-   font-size: 25px;
+    text-decoration: underline;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    
+}
+.h2_products{
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 5%;
+ 
+    
+
+}
+/*productos*/
+.products{
+    display: flex;
+    justify-content: space-around;
+  
+ 
+}
+.products_img{
+    background-color: #d4d4d4;
+    justify-content: center;
+ padding: 40px;
+ border: 0px px 0px 0px;
+  
+}
+.btn_options-2{ 
+    display: flexbox;
+    justify-content: center;
+    border-radius: 5%;
+    margin: 20px;
+ 
+}
+.btn_options-2:hover{
+    background-color: var(--color);
+    text-decoration: underline;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.detalles{
+    color: black;
+    margin: 30px 20px 50px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: var(--color);
+    border-radius: 15%;
+    border: 10%;
+}
+.detalles:hover{
+    background-color: white;
 }
