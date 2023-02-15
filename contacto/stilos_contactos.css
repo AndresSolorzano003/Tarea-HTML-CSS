@@ -1,0 +1,23 @@
+
+
+    .look_For{
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24px;
+    }
+
+    .referencias_look_for{
+        color: black;
+        margin: 30px 20px 50px 0px;
+        text-decoration: none;
+        
+        
+    }
+
+    .referencias_look_for:hover{
+        color: var(--color);
+       
+        text-decoration: underline;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
