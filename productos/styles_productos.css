@@ -4,3 +4,162 @@
 body{
     background-color: #F0FFFF;
 }
+/*Cabecera */
+.cabecera_productos{
+    background-color: var(--color);
+    display: flex;
+    justify-content: space-between;
+    border: 0%;
+    padding: 0%;
+    margin: 0%;
+}
+.ref_Redes_Sociales_productos{
+    padding: 10px;
+}
+.img_redes_sociales_productos{
+    padding: 10px;
+}
+.ref_busqueda_productos{
+    margin: 0px 10px 0 0;
+}
+
+input{
+    border-radius: 150px;
+    margin: 0px 20px 0 0;
+    padding: 5px;  
+}
+/*Barra de menu*/
+.url_productos{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+.img_look_for{
+    justify-content: flex-start;
+    margin: 0px 34% 0px 0px;
+}
+.referencias_url_productos{
+    color: black;
+    margin: 30px 20px 50px 0px;
+    text-decoration: none;
+}
+.referencias_url_productos:hover{
+    color: var(--color);
+   
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Barra de menu*/
+.h1_titulo{
+
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+  justify-content: center;
+}
+.btn_options{
+    display: flex;
+    
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+   
+}
+.btn_menu{
+    color: black;
+    margin: 30px 20px 50px 0px;
+    text-decoration: none;
+    
+
+}
+.opc_perros{
+    background-color: #D6EAF8;
+    justify-content: center;
+ border: 0px px 0px 0px;
+ margin: 70px;
+}
+.btn_options-2{
+    display: flexbox;
+    justify-content: center;
+    border-radius: 5%;
+    margin: 20px;
+ 
+  
+}
+
+/*productos*/
+.sec_perros{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color);
+    
+    
+}
+.h1_perros{
+    
+    display: flex;
+    font-size: 224px;
+    justify-content: center;
+}
+
+.sec_gatos{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color);
+}
+
+.h1_gatos{
+    display: flex;
+    font-size: 224px;
+    justify-content: center;
+}
+
+.sec_juguetes{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color);
+}
+
+.h1_juguetes{
+    display: flex;
+    font-size: 224px;
+    justify-content: center;
+}
+
+/*Parte final*/
+.final{
+    display: flex;
+    padding: 20px 10px 0px 50px;
+    justify-content: space-around;
+   
+   
+}.sectionP_Final{
+   
+    display: flex;
+    text-align: justify;
+}
+.p_final{
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+}
+.sectionh4_final{
+    padding: 20px 10px 0px 50px;
+}
+.menufinal{
+    display: flex;
+    
+    flex-direction: column-reverse;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+
+}
+
+
+
+
+
+
