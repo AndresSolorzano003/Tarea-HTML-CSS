@@ -1,5 +1,7 @@
 :root{
     --color: #03989E;
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #F0FFFF;
@@ -65,7 +67,7 @@ input{
     justify-content: space-around;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
-   
+    text-decoration: none;
 }
 .btn_menu{
     color: black;
@@ -88,7 +90,10 @@ input{
  
   
 }
-
+.btn_menu:hover{
+    color:#496063
+    
+}
 /*productos*/
 .sec_perros{
     display: flex;

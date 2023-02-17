@@ -1,23 +1,52 @@
+:root{
+    --color: #03989E;
+}
+body{
+    background-color: #F0FFFF;
+}
+/*Cabecera */
+.cabecera_productos{
+    background-color: var(--color);
+    display: flex;
+    justify-content: space-between;
+    border: 0%;
+    padding: 0%;
+    margin: 0%;
+}
+.ref_Redes_Sociales_productos{
+    padding: 10px;
+}
+.img_redes_sociales_productos{
+    padding: 10px;
+}
+.ref_busqueda_productos{
+    margin: 0px 10px 0 0;
+}
 
-
-    .look_For{
-        display: flex;
-        justify-content: space-around;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 24px;
-    }
-
-    .referencias_look_for{
-        color: black;
-        margin: 30px 20px 50px 0px;
-        text-decoration: none;
-        
-        
-    }
-
-    .referencias_look_for:hover{
-        color: var(--color);
-       
-        text-decoration: underline;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+input{
+    border-radius: 150px;
+    margin: 0px 20px 0 0;
+    padding: 5px;  
+}
+/*Barra de menu*/
+.url_productos{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+.img_look_for{
+    justify-content: flex-start;
+    margin: 0px 34% 0px 0px;
+}
+.referencias_url_productos{
+    color: black;
+    margin: 30px 20px 50px 0px;
+    text-decoration: none;
+}
+.referencias_url_productos:hover{
+    color: var(--color);
+   
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,12 +1,37 @@
 :root{
     --color: #03989E;
+    --text: #496063;
+    --fondo: #D6EAF8;
 }
-body{
-    background-color: #F0FFFF;
-}
+
 button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:var(--color);
+    color: var(--text);
 }
+
+ input{
+    padding: 13px 0px 0px 0px;
+    border: 5%;
+    border-color: var(--color);
+    border-radius: 50px;
+    text-align: center;
+   font-size: 18px;
+}
+input:hover{
+ gap: initial;
+}
+
+a:visited{
+text-decoration: none;
+}
+li h2 {
+    font-size: 2rem;
+   
+    
+}
+
+
 
 /*Cabecera*/
 .head_pag{
@@ -20,15 +45,14 @@ button{
 .img_redes_sociales{
     padding: 10px;
 }
-input{
-    border-radius: 150px;
-    margin: 0px 20px 0 0;
-    padding: 5px;  
-}
+
 .ref_busqueda{
     margin: 0px 10px 0 0;
+   
 }
-
+.img_busqueda{
+    padding: 10px 0px 0px 0px;
+}
 /* Barra menu*/
 .look_For{
    
@@ -46,6 +70,7 @@ input{
     color: black;
     margin: 30px 20px 50px 0px;
     text-decoration: none;
+    padding: 9px 0px 0px 0px;
     
     
 }
@@ -54,6 +79,8 @@ input{
    
     text-decoration: underline;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
 }
 /*Menu opciones*/
 .btn_options{
@@ -62,11 +89,12 @@ input{
     background-color: #D6EAF8;
 }
 .btn_options:hover{
-     background-color: var(--color);
+     background-color: var(--red);
     text-decoration: underline;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .h2_products{
+    padding: 50px 100px 0px 200px;
     font-size: 200%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -79,14 +107,15 @@ input{
 .products{
     display: flex;
     justify-content: space-around;
-  
+  background-color: var(--fondo);
  
 }
 .products_img{
-    background-color: #D6EAF8;
+    background-color: var(--color);
     justify-content: center;
  border: 0px px 0px 0px;
  margin: 50px;
+ background-color: var(--fondo);
   
 }
 .btn_options-2{ 
@@ -112,7 +141,7 @@ input{
     border: 10%;
 }
 .detalles:hover{
-    background-color: white;    
+    background-color: var(--text);    
 }
 .seeker{
     background-color: #D6EAF8;
@@ -124,14 +153,18 @@ input{
 }
 
 .h2_seeker{
-    font-size: 20px;
+    
+    text-decoration: none;
 }
-
+.h2_seeker:link{
+    text-decoration: none;
+}
 /*final*/
 .final{
     display: flex;
     padding: 20px 10px 0px 50px;
     justify-content: space-around;
+    background-color: #3E807C;
    
 }
 .sectionP_Final{
@@ -155,5 +188,8 @@ input{
     border: 10px;
     margin: 10px;
 
+}
+.menufinal a{
+    font-size: 20px;
 }
 
